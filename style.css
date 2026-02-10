@@ -81,4 +81,30 @@ body{
   .logo{
     display:block;
  }
+ 
+}
+.email-image {
+    width: 132px;
+    height: 132px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.05); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px auto;
+}
+
+.email-image img {
+    width: 90px;
+}
+
+.resend {
+    text-align: center;
+    font-size: 14px;
+}
+
+.resend a {
+    color: var(--hospital-green);
+    text-decoration: none;
+    font-weight: 500;
 }
