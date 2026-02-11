@@ -144,3 +144,13 @@ body{
     }
 }
 
+.value {
+    background-color: var(--text-input-field);
+    border-radius: 4px;
+    height: 30px;
+    padding: 10px 16px;  
+    margin-bottom: 24px;
+    align-items: center;
+    font-size: 14px;
+    width: 85%;
+}
