@@ -178,6 +178,7 @@ body {
   font-family: 'Quicksand', sans-serif;
 }
 
+/* maim */
 .main-container {
   padding: 24px;
 }
@@ -232,17 +233,16 @@ body {
 }
 
 
-
 @media (max-width: 640px) {
   :root {
     --card-size: 140px;
   }
 }
--- Desktop Menu Styles */
+ /* <!-- Desktop Menu Styles--> */
 .desktop-menu {
   width: 150px;
   border: 1px solid var(--very-light-pink);
-  border-radius: 6px;
+  border-radius: 12px;
   padding: 20px;
 }
 
@@ -253,11 +253,17 @@ body {
 }
 
 .desktop-menu ul li {
-  text-align: end;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.desktop-menu ul li:not(:last-child) {
-  margin-bottom: 20px;
+.desktop-menu ul li:nth-child(2) {
+  border-bottom: 1px solid var(--very-light-pink);
+  padding-bottom: 20px;
+}
+
+.desktop-menu ul li:last-child {
+  margin-bottom: 0;
 }
 
 .desktop-menu ul li:last-child a {
@@ -268,8 +274,10 @@ body {
 .desktop-menu a {
   text-decoration: none;
   color: var(--black);
+  font-weight: 600;
 }
 
+/* .mobile-menu */
 .mobile-menu {
   padding: 24px;
 }
